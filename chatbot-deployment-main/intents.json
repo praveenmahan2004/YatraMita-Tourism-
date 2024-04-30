@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Namaskaram !! I'm Narada Muni - The Celestial Sage. Here to assist you with your Travel."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Hope you enjoy your Trip. Namo Narayana "
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","thanq"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "places_winter",
+      "patterns": ["Where should I go in winter?", "Winter destinations", "Best places to visit in winter","where do i go in december?","where do i go in january?","where do i go in february?"],
+      "responses": ["Some popular winter destinations in India are Goa, Kerala, Rajasthan, Auli, Shimla, Manali, and Pondicherry."]
+    },
+    {
+      "tag": "places_spring",
+      "patterns": ["Where should I go in spring?", "Spring destinations", "Best places to visit in spring","where do i go in june?","where do i go in july?","where do i go in August?","where do i go in september?","Where should I go in rainy season?","rainy destinations"],
+      "responses": ["In spring, you can consider visiting Darjeeling, Ooty, Coonoor, Srinagar, and Tawang for a memorable experience."]
+    },
+    {
+      "tag": "places_summer",
+      "patterns": ["Where should I go in summer?", "Summer destinations", "Best places to visit in summer","where do i go in April?","where do i go in may?","where do i go in march?"],
+      "responses": ["During summer, destinations like Leh-Ladakh, Munnar, Valley of Flowers, Coorg, and Andaman and Nicobar Islands offer a cool retreat."]
+    },
+    {
+      "tag": "places_autumn",
+      "patterns": ["Where should I go in autumn?", "Autumn destinations", "Best places to visit in autumn","where do i go in October?","where do i go in november?"],
+      "responses": ["Autumn is a great time to visit Ranthambore National Park, Varanasi, Kutch, Pachmarhi, and Hampi for unique experiences."]
+    },
+    {
+      "tag": "budget_travel",
+      "patterns": ["How can I travel on a budget?", "Budget-friendly travel tips", "Affordable travel destinations"],
+      "responses": ["To travel on a budget, consider booking accommodations through budget-friendly platforms, using public transportation, eating at local eateries, and opting for free or low-cost activities such as hiking and visiting parks."]
+    },
+    {
+      "tag": "adventure_travel",
+      "patterns": ["I'm looking for adventure travel options", "Best destinations for adventure seekers", "Adventure travel experiences"],
+      "responses": ["For adventure seekers, destinations like Rishikesh for river rafting, Bir Billing for paragliding, Spiti Valley for trekking, and Goa for scuba diving offer thrilling experiences."]
+    },
+    {
+      "tag": "family_travel",
+      "patterns": ["Where can I go for a family vacation?", "Family-friendly travel destinations", "Travel options for families"],
+      "responses": ["For a memorable family vacation, consider destinations like Ooty, Mahabaleshwar, Munnar, and Jim Corbett National Park, which offer activities suitable for all age groups."]
+    },
+    {
+      "tag": "cultural_experience",
+      "patterns": ["Where can I experience Indian culture?", "Cultural immersion destinations", "Cultural festivals and events"],
+      "responses": ["To immerse yourself in Indian culture, visit cities like Jaipur, Varanasi, Udaipur, and Kochi, where you can explore historical monuments, attend cultural festivals, and indulge in local cuisine."]
+    },
+    {
+      "tag": "ecotourism_destinations",
+      "patterns": ["Where can I find ecotourism destinations?", "Eco-friendly travel spots", "Sustainable travel destinations"],
+      "responses": ["For ecotourism destinations, consider places like Wayanad in Kerala, Kabini in Karnataka, Sundarbans in West Bengal, and Spiti Valley in Himachal Pradesh, which prioritize sustainability and conservation."]
+    },
+    {
+      "tag": "responsible_accommodation",
+      "patterns": ["How can I find responsible accommodation?", "Eco-friendly hotels and resorts", "Sustainable lodging options"],
+      "responses": ["Look for eco-friendly hotels and resorts that have initiatives such as energy conservation, waste reduction, water conservation, and support for local communities and wildlife conservation."]
+    },
+    {
+      "tag": "carbon_footprint_reduction",
+      "patterns": ["How can I reduce my carbon footprint while traveling?", "Tips for sustainable transportation", "Reducing environmental impact while traveling"],
+      "responses": ["Reduce your carbon footprint by choosing eco-friendly modes of transportation such as trains and buses, opting for direct flights, minimizing single-use plastics, supporting local businesses, and participating in eco-friendly activities."]
+    },
+    {
+      "tag": "voluntourism_opportunities",
+      "patterns": ["Are there voluntourism opportunities?", "Volunteering while traveling", "Sustainable tourism projects"],
+      "responses": ["Explore voluntourism opportunities such as volunteering for wildlife conservation projects, participating in community development initiatives, and supporting local NGOs working on environmental and social causes."]
+    },
+    {
+      "tag": "ethical_wildlife_encounters",
+      "patterns": ["How can I have ethical wildlife encounters?", "Responsible wildlife tourism", "Animal-friendly travel experiences"],
+      "responses": ["Choose wildlife encounters that prioritize animal welfare and conservation, such as visiting sanctuaries and rehabilitation centers, observing animals in their natural habitats with responsible tour operators, and avoiding attractions that exploit animals for entertainment."]
+    },
+    {
+      "tag":"GOA",
+      "patterns":["plan me a itinerary for a trip to Goa","suggest me some places to go in Goa","goa trip","goa"],
+      "responses":[
+        "Relaxing on the Goa's beautiful Beaches, visit to the forts and flea markets, visit the clubs and beach shacks, portuguese-style churches and houses of old Goa"
+      ]
+    },
+    {
+      "tag": "KERALA",
+      "patterns": ["plan me an itinerary for a trip to Kerala", "suggest me some places to go in Kerala","kerala trip","kerala"],
+      "responses": [
+        "Exploring the backwaters of Alleppey, visiting the hill stations of Munnar and Wayanad, experiencing the cultural richness of Kochi, enjoying the beaches of Kovalam and Varkala, and indulging in Ayurvedic treatments and houseboat stays."
+      ]
+    },
+    {
+        "tag": "ARAKU",
+        "patterns": ["plan me an itinerary for a trip to Araku", "suggest me some places to go in Araku","araku trip","araku"],
+        "responses": [
+          "Exploring the picturesque Araku Valley, visiting the Borra Caves, enjoying a scenic train journey on the Araku Valley Railway, trekking through coffee plantations, experiencing the tribal culture and cuisine, and relaxing amidst the natural beauty of the Eastern Ghats."
+        ]
+      
+    }
+    
+  ]
+}
